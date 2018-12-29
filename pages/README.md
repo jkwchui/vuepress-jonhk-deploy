@@ -1,13 +1,13 @@
 ---
 sidebar: auto
-title: Test
+title: Test page
 ---
 
 # Markdown examples
 
-Edit on 29 Dec 2018 by JC
+Edit on Dec 2018
 
-# h1 Hmm 8-)
+# h1 HmHm 8-)
 
 ## h2 Heading
 
