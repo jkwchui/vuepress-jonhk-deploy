@@ -57,13 +57,11 @@ module.exports = {
     //     }
     // },
     plugins: [
-        '@vuepress/last-updated', {
-            transformer: (timestamp, lang) => {
-                // Don't forget to install moment yourself
-                const moment = require('moment')
-                moment.locale(lang)
-                return moment(timestamp).fromNow()
-            }
+        '@vuepress/last-updated',
+        '@vuepress/active-header-links', {
+            sidebarLinkSelector: '.sidebar-link',
+            headerAnchorSelector: '.header-anchor',
+            headerTopOffset: 120
         }
     ],
     serviceWorker: true,
