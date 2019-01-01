@@ -50,12 +50,12 @@ module.exports = {
             content: '#000000'
         }]
     ],
-    markdown: {
-        extendMarkdown: md => {
-            // use more markdown-it plugins!
-            md.use(require('markdown-it-latex'))
-        }
-    },
+    // markdown: {
+    //     extendMarkdown: md => {
+    //         // use more markdown-it plugins!
+    //         md.use(require('markdown-it-latex'))
+    //     }
+    // },
     serviceWorker: true,
     themeConfig: {
         docsDir: 'docs',

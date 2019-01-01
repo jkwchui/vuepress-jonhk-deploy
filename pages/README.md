@@ -3,6 +3,9 @@ sidebar: auto
 title: Test page
 ---
 
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+
 # Markdown examples
 
 Edit on Dec 2018
@@ -27,6 +30,10 @@ Edit on Dec 2018
 ##### h5 Heading
 ###### h6 Heading
 ```
+
+## Vue Interpolation
+
+<span v-for="i in 3">{{ i }} </span>
 
 ## Horizontal Rules
 
@@ -148,9 +155,13 @@ console.log(foo(5));
 
 ## LaTeX?
 
+With hoisting.
+
 $$ a^2 + b^2 = c^2 $$
 
 $$ \ce{H2O} $$
+
+\\[ a^2 = b^2 + c^2 \\]
 
 `$E = mc^2$`
 
