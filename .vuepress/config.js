@@ -1,10 +1,10 @@
 module.exports = {
-    title: "VuePress Deploy",
+    title: "VuePress Exploration",
     locales: {
         '/': {
             lang: 'en-EN',
-            title: 'VuePress Deploy',
-            description: 'Vuepress with Netlify Deploy Button'
+            title: 'VuePress Static Page',
+            description: 'Using this for jon.hk?'
         }
     },
     head: [
@@ -56,10 +56,20 @@ module.exports = {
     //         md.use(require('markdown-it-latex'))
     //     }
     // },
+    plugins: [
+        '@vuepress/last-updated', {
+            transformer: (timestamp, lang) => {
+                // Don't forget to install moment yourself
+                const moment = require('moment')
+                moment.locale(lang)
+                return moment(timestamp).fromNow()
+            }
+        }
+    ],
     serviceWorker: true,
     themeConfig: {
         docsDir: 'docs',
-        repo: 'capriosa/vuepress-deploy',
+        repo: 'jkwchui/vuepress-jonhk-deploy',
 
         nav: [{
                 text: 'Start',

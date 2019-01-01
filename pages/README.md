@@ -3,9 +3,6 @@ sidebar: auto
 title: Test page
 ---
 
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
-
 # Markdown examples
 
 Edit on Dec 2018
