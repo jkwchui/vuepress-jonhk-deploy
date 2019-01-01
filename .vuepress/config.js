@@ -2,7 +2,7 @@ module.exports = {
     title: "VuePress Deploy",
     locales: {
         '/': {
-            lang: 'de-DE',
+            lang: 'en-EN',
             title: 'VuePress Deploy',
             description: 'Vuepress with Netlify Deploy Button'
         }
@@ -50,6 +50,12 @@ module.exports = {
             content: '#000000'
         }]
     ],
+    markdown: {
+        extendMarkdown: md => {
+            // use more markdown-it plugins!
+            md.use(require('markdown-it-latex'))
+        }
+    },
     serviceWorker: true,
     themeConfig: {
         docsDir: 'docs',

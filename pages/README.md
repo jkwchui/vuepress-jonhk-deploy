@@ -228,6 +228,16 @@ Like links, Images also have a footnote style syntax
 > Shortcuts (emoticons): :-) :-( 8-) ;)
 ```
 
+## Custom containers
+
+::: tip
+This is a tip
+:::
+
+::: danger DRAGONS
+Here be dragons
+:::
+
 ::: warning
 _here be dragons_
 :::
