@@ -146,6 +146,12 @@ var foo = function(bar) {
 console.log(foo(5));
 ```
 
+## LaTeX?
+
+$$ a^2 + b^2 = c^2 $$
+
+$$ \ce{H2O} $$
+
 ## Tables
 
 | Option | Description                                                               |
